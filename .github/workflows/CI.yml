@@ -50,4 +50,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: [user]/app:latest
+          tags: andihofi/app:${{ steps.vars.outputs.sha_short }}
+
